@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="index.css">
+    <title>ForexPeak</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#" class="logo">
+                <div class="logo-name"><h1>ForexPeak</h1></div>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">Features</a></li>
+            <li id="link2" class="link"><a href="#">Plans</a></li>
+        </ul>
+        <button class="btn" onclick="location.href='Views/index.php';">Log In</button>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>CREATE YOUR TRADING JOURNAL</h4>
+            <H1>Take Your <span>Trading</span> To The Next Level</H1>
+            <p>
+                ForexPeak, helps you discover your strengths and weaknesses to become a profitable trader with the power of journaling and analytics.
+            </p>
+            <button class="btn" onclick="location.href='#OURPLANS';">Get Started Now ></button>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500 Index"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100 Cash CFD"
+      },
+      {
+        "description": "XAUUSD",
+        "proName": "FXOPEN:XAUUSD"
+      },
+      {
+        "description": "EURUSD",
+        "proName": "FX:EURUSD"
+      },
+      {
+        "description": "GBPJPY",
+        "proName": "OANDA:GBPJPY"
+      },
+      {
+        "description": "USDCAD",
+        "proName": "OANDA:USDCAD"
+      },
+      {
+        "description": "USDAUD",
+        "proName": "FX_IDC:USDAUD"
+      },
+      {
+        "description": "USDCHF",
+        "proName": "OANDA:USDCHF"
+      }
+    ],
+    "showSymbolLogo" : true,
+    "showSymbolLogo": true,
+    "isTransparent": true,
+    "displayMode": "regular",
+    "colorTheme": "dark",
+    "locale": "en"
+  }
+    </script>
+    </div>
+    <!-- TradingView Widget END -->
+    <section class="container">
+        <h2 class="header">OUR FEATURES</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="bx bx-news"></i></span>
+                <h4>Journal</h4>
+                <p>
+                    You focus on trading while we focus on helping you getting better. 
+                </p>
+                <a href="#OURPLANS">Join Now <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="bx bx-line-chart"></i></span>
+                <h4>Analytics</h4>
+                <p>
+                    Take a moment to understand what mistakes you made.
+                </p>
+                <a href="#OURPLANS">Join Now <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-book-line"></i></span>
+                <h4>Notebook</h4>
+                <p>
+                    Your notebook is yours to customize and to keep everything in one place.
+                </p>
+                <a href="#OURPLANS">Join Now <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Simulation</h4>
+                <p>
+                    Use the Simulation stat to stop losing money from poor risk management.          </p>
+                <a href="#OURPLANS">Join Now <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="OURPLANS" class="container">
+        <h2 class="header">OUR PLANS</h2>
+        <p class="sub-header">
+            Take a moment to understand what mistakes you made,Take a moment to understand what mistakes you made.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Basic Plan</h4>
+                    <h3>0$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        2 Trading Journal Account
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        50 Track Record data
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Simple analysis chart
+                    </p>
+                </div>
+                <button class="btn" onclick="location.href='Views/index.php';">Join Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Gold Plan</h4>
+                    <h3>15$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        5 Trading Journal Account
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        5 Track Record
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Advanced analysis chart
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Support Access
+                    </p>
+                </div>
+                <button class="btn" onclick="location.href='Views/index.html';">Join Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Diamond Plan</h4>
+                    <h3>30$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Unlimited Trading Journal Account
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Unlimited Track Record
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Support Access
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Private Coaching
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        ACCESS ForexPeak Community
+                    </p>
+                </div>
+                <button class="btn" onclick="location.href='Views/index.html';">Join Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <p>
+                Forex Peak developers team<br>Founder Of br Forex Peak
+            </p>
+            <div class="socials">
+                <a href="https://www.youtube.com/"><i class="ri-youtube-line"></i></a>
+                <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                <a href="https://web.telegram.org/"><i class="ri-telegram-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>YouTube</h4>
+            <a href="https://www.youtube.com/">ForexPeak</a>
+            <h4>YouTube</h4>
+            <a href="https://www.youtube.com/">ForexPeak</a>
+        </div>
+        <div class="column">
+            <h4>Instagram</h4>
+            <a href="https://www.instagram.com/">Official Instagram</a>
+            <h4>Instagram</h4>
+            <a href="https://www.instagram.com/">ForexPeak Instagram</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="">ForexPeak Support</a>
+            <h4>Contact</h4>
+            <a href="">ForexPeak Support</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright Â© 2024 ForexPeak. All Rights Reserved.
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
